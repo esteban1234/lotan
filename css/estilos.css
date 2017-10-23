@@ -28,34 +28,16 @@
 }
 
 /*---------------------------------------------------------------------------------------*/
- 
 
-.linea{
-	width: 100%;
-	height: 30px;
-	background-color: #7A170F;
+.menu{
+	background-color: #F6A31D;
+	margin-bottom:  0px;
 	overflow: hidden;
-	color: #fff;
-}
-.linea p{
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 16px;
-	width: 80%;
-	margin: 0 auto;
-	margin-top: .3%;
-}
-header{
-	width: 100%;
-	overflow: hidden;
-}
-.logo{
-	width: 20%;
-	margin-left: 10%;
-	margin-top: 1%;
 }
 nav{
-	margin-right: 10%;
-	margin-top: 1%;
+	/*margin-right: 10%;*/
+	/*margin-top: 1%;*/
+	text-align: center;
 }
 nav ul{
 	padding: 20px;
@@ -63,16 +45,48 @@ nav ul{
 nav ul a.selector{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 20px;
-	color: #7A170F;
+	color: #7F7D7F;
 	text-decoration: none;
-	padding: 20px;
+	padding: 32px;
+	 -moz-transition: all 1s ease;
+     -webkit-transition: all 1s ease;
+     -o-transition: all 1s ease;
+     transition: all 1s ease;
+
 }
 nav ul a.selector:hover{
-	
+	color: #fff;
+	background-color: #686668;
 }
 
 nav ul a#select{
-	color: #7C7B7B;
+	color: #fff;
+	background-color: #686668;
+}
+header{
+	padding-bottom: 1%;
+	background-color: #F6F6F6;
+	margin-top: 0px;
+	overflow: hidden;
+}
+ 
+.logo{
+	width: 15%;
+}
+.text-h{
+	/*border: 2px red solid;*/
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	color: #4A484A;
+	width: 60%;
+	margin-top: 6%;
+}
+.correo-h{
+	/*margin-right: 3%;*/
+}
+.horario-h{
+	/*margin-right: 5%;*/
+	vertical-align: top;
 }
 .banner {
     position: relative;
@@ -96,112 +110,45 @@ nav ul a#select{
 	margin-top: 5%;
 	text-align: center;
 }
-.tit{
-	margin-top: 8%;
-}
-.texto{
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 22px;
-	width: 60%;
-	margin: 0 auto;
+.boton{
+	margin-top: 4%;
 	text-align: center;
-	margin-top: 1%;
 }
-.banner2{
+.icono-tit-i{
+	width: 100%;
+	padding: 5% 0px;
+}
+.icono{
+	text-align: center;
+}
+.tit-i{
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 35px;
+	color: #4A484A;
+}
+.imagen{
+	border: 2px red solid;
 	position: relative;
-    height: 510px;
-    background: url('../img/plano.jpg') no-repeat center;
+	width: 100%;
+    height: 272px;
+    /*background: url('../img/banner.jpg');*/
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     overflow: hidden;
     clear: both;
-    margin-top: 8%;
 }
+/*
 .fondo{
 	background-color: rgba(0,0,0,.6);
 	height: 510px;
 	overflow: hidden;
-}
-.titbanner{
-	margin-top: 5%;
-	text-align: center;
-	color: #fff;
-}
-hr {
-	width: 20%;
-	margin: 0 auto;
-	margin-top: 1%;
-}
-.boton{
-	margin-top: 2%;
-	width: 30%;
-	margin: 0 auto;
-}
-.imagen{
-	width: 100%;
-    height: 250px;
-    background: url('../img/minimalista2.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    clear: both;
-}
-.imagen2{
-	width: 100%;
-    height: 250px;
-    background: url('../img/cocina.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    clear: both;
-}
-.imagen3{
-	width: 100%;
-    height: 250px;
-    background: url('../img/minimalista3.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    clear: both;
-}
-.imagen4{
-	width: 100%;
-    height: 250px;
-    background: url('../img/bano.jpeg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    clear: both;
-}
-.imagen5{
-	width: 100%;
-    height: 250px;
-    background: url('../img/minimalista.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    clear: both;
-}
-.imagen6{
-	width: 100%;
-    height: 250px;
-    background: url('../img/loft.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    clear: both;
-}
+}*/
+
 /*---------------------pie------------------*/
 footer{
-	background: #7A170F;
+	background: #4A484A;
 	font-family: 'Oswald', sans-serif;
 	height: 100px;
 	overflow: hidden;
@@ -217,7 +164,7 @@ footer p{
 /*------------------------------------------------------------------------------------------------*/
 
 /*------------------nosotros------------*/
-.bannern {
+/*.bannern {
     position: relative;
     height: 410px;
     background: url('../img/nosotros.jpg') no-repeat center;
@@ -238,44 +185,11 @@ footer p{
 	margin: 0 auto;
 	margin-top: 5%;
 	text-align: center;
-}
-.uno{
-	/*border: 2px red solid;*/
-	width: 32%;
-	height: 250px;
-	display: inline-block;
-	padding: 20px;
-	vertical-align: top;
-	text-align: center;
-}
-.con{
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 30px;
-}
-.seccion1{
-	padding: 10% 0% 0% 0%;
-	background-color: #7C7B7B;
-	overflow: hidden;
-}
-.imagenn{
-	position: relative;
-	/*width: 40%;*/
-    height: 410px;
-    background: url('../img/sala.jpg') no-repeat center;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    clear: both;
-}
-.texton{
-	color: #fff;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 19px;
-}
+}*/
+
 /*------------------------------------------------------------------------------------------------*/
 /*-------------servicios-----------------*/
-.banners {
+/*.banners {
     position: relative;
     height: 410px;
     background: url('../img/servicios.jpg') no-repeat center;
@@ -296,107 +210,8 @@ footer p{
 	margin: 0 auto;
 	margin-top: 5%;
 	text-align: center;
-}
-.seccion2{
-	padding: 10% 0% 10% 0%;
-	/*background-color: #7C7B7B;*/
-	overflow: hidden;
-}
-.seccion3{
-	padding: 10% 0% 10% 0%;
-	background-color: #7A170F;
-	overflow: hidden;
-	color: #fff;
-}
-.imagens{
-	position: relative;
-	width: 40%;
-    height: 410px;
-    background: url('../img/arqui.png') no-repeat center;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    clear: both;
-}
-.top{
-	margin-top: 25%;
-}
-.top2{
-	margin-top: 20%;
-}
-.textos{
-	font-size: 16px;
-}
+}*/
+
 /*------------------------------------------------------------------------------------------------*/
 /*--------------------contacto-----------------*/
-.contact .fa:before {
-  display: inline-block;
-  opacity: 0.7;
-}
 
-.contact li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0 1em;
-  text-align: center;
-}
-
-.contact p {
-  text-align: center;
-}
-
-.contact {
-  display: inline-block;
-  margin: 0 auto;
-  padding-left: 0;
-}
-
-.cont {
-  text-align: center;
-}
-.contact-form{ 
-	margin-top:15px;
-}
-.contact-form .textarea{ 
-	min-height:220px; 
-	resize:none;
-}
-.form-control{ 
-	box-shadow:none; 
-	border-color:#eee; 
-	height:49px;
-}
-.form-control:focus{ 
-	box-shadow:none; 
-	border-color:#00b09c;
-}
-.form-control-feedback{ 
-	line-height:50px;
-}
-.main-btn{ 
-	background:#FFFFFF; 
-	/*border-color:#FFFFFF; */
-	color:#000;
-}
-.main-btn:hover{ 
-	background:#000;
-	color:#fff;
-}
-.form-control-feedback {
-line-height: 50px;
-top: 0px;
-}
-.mapa{
-	width: 100%;
-}
-.mapa iframe{
-	width: 100%;
-}
-.textof{
-	color: #fff;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 19px;
-	width: 87%;
-	margin: 0 auto;
-}
