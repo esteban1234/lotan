@@ -2,69 +2,90 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
-<div class="linea">
-  <p><i class="fa fa-phone" aria-hidden="true"></i> PENDIENTE | COTIZAMOS SIN COSTO &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i> info@construccionesduncor.com</p>
-</div>
 
-<header>
-  <figure class="logo pull-left">
-    <img src="../img/duncor.png" class="img-responsive" alt="DUNCOR">
-  </figure>
-  <nav class="pull-right">
+<div class="menu">
+  <nav>
     <ul>
       <a class="selector" href="../index.php">INICIO</a>
-      <a class="selector" id="select" href="nosotros.php"><i class="fa fa-users" aria-hidden="true"></i> NOSOTROS</a>
+      <a class="selector" id="select" href="nosotros.php">NOSOTROS</a>
       <a class="selector" href="servicios.php">SERVICIOS</a>
       <a class="selector" href="contacto.php">CONTACTO</a>
     </ul>
   </nav>
+</div>
+<header>
+  <div class="container">
+    <figure class="logo pull-left">
+      <img src="../img/lotan.png" alt="LOTAN" class="img-responsive">
+    </figure>
+
+    <div class="text-h pull-right">
+      <p class="pull-left correo-h"><i style="color: #F6A41D;" class="fa fa-envelope-o" aria-hidden="true"></i> info@construccioneslotan.com</p>
+      <p class="pull-right horario-h"><i style="color: #F6A41D;" class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes de 9 am a 6 pm</p>
+    </div>
+  </div>
 </header>
 
-<div class="bannern">
-  <p>
-Una de las empresas dedicadas a la ingeniería, construcción y mantenimiento </p>
-</div>
-
-<div class="container" style="padding: 50px 0px;">
-  <div class="uno">
-    <div class="con" style="width: 45%; margin: 0 auto;"><span class="pull-left"><i class="fa fa-location-arrow" aria-hidden="true"></i></span><p class="pull-right"> MISION</p></div>
-    <p style="clear: both;">Contribuir al éxito de nuestros clientes mediante la satisfacción de sus necesidades relacionadas con los servicios que ofrecemos de ingeniería, construcción, mantenimiento e instalaciones, proporcionándoles soluciones técnico económicas de alto valor agregado.</p>
-  </div>
-  <div class="uno">
-    <div class="con" style="width: 45%; margin: 0 auto;"><span class="pull-left"><i class="fa fa-eye" aria-hidden="true"></i></span><p class="pull-right"> VISION</p></div>
-    <p style="clear: both;">Posicionarnos en el mercado de nuestros clientes como la mejor empresa en el ramo de la construcción , ofreciendo un servicio integral de Arquitectura e Ingeniería Civil y operando siempre con un trato amable, de calidad y respeto para todos nuestros clientes.</p>
-  </div>
-  <div class="uno">
-    <div class="con" style="width: 50%; margin: 0 auto;"><span class="pull-left"><i class="fa fa-handshake-o" aria-hidden="true"></i></span><p class="pull-right"> VALORES</p></div>
-    <p style="clear: both;">Honestidad <br>
-Compromiso <br>
-Profesionalismo <br>
-Dedicación <br>
-Respeto <br>
-Integridad <br>
-Trato Justo</p>
-  </div>
-</div>
-
-<div class="section seccion1">
-      <div class="container">
-        <div class="row">
-          <div class="imagenn col-md-6">
-            
+<div class="container" style="padding: 5% 0%;">
+<div class = "row">
+    <div class = "col-md-4">
+        <div class="card-base">
+          <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><i class="fa fa-hourglass-half" aria-hidden="true"></i></a>
+          <div class="card-data widgetCardData">
+          <h2 class="box-title" style="color: #bb7824;">Misión</h2>
+          <p class="card-block text-center">Brindar servicios de ingeniería, construcción, mantenimiento y administración de infraestructura, con excelencia, oportunidad y responsabilidad social; mediante elevados estándares de calidad, preservación del medio ambiente, seguridad y salud ocupacional; para contribuir al desarrollo sostenible de nuestro País. </p>
           </div>
-          <div class="col-md-6">
-            <!-- <h1>A title</h1>
-            <h3>A subtitle</h3> -->
-            <p class="texton">Somos una empresa que proporciona un servicio integral a cualquier persona que desee construir o remodelar, te apoyamos desde el diseño de tu proyecto, realizamos todos los trámites que requieras para construir y edificamos tu proyecto hasta su finalización. <br><br>
-
-              Los servicios que ofrece DUNCOR son garantía de eficiencia, honestidad, calidad y profesionalismo. <br><br>
-
-
-              Con los mejores materiales de construcción y aceros, proyectamos, diseñamos y construimos obras civiles con tecnología y servicio a nuestros clientes con la más alta calidad, asistiendo con la selección de materiales más acordes con sus necesidades específicas. Además les ayudamos a resolver el mejor uso del espacio disponible con la más alta funcionalidad de sus instalaciones presentes y futuras.
+          </div>
+          <div class="space"></div>
         </div>
-      </div>
     </div>
 
+      <div class = "col-md-4">
+        <div class="card-base">
+          <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><i class="fa fa-eye" aria-hidden="true"></i></a>
+          <div class="card-data widgetCardData">
+          <h2 class="box-title" style="color: #bb7824;">Visión</h2>
+          <p class="card-block text-center">Ser la firma líder en diseño y construcción sustentable que logre trascender en el tiempo y crecer con un aporte arquitectónico que ayude al convivir de la población como una empresa constructora líder en el mercado nacional e internacional, con excelencia en su modelo de gestión y procesos de innovación, para mejorar la calidad de vida a sus trabajadores, generando bienestar a la sociedad.</p>
+          </div>
+          </div>
+          <div class="space"></div>
+        </div>
+    </div>
+
+      <div class = "col-md-4">
+        <div class="card-base">
+          <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><i class="fa fa-handshake-o" aria-hidden="true"></i></a>
+          <div class="card-data widgetCardData">
+          <h2 class="box-title" style="color: #bb7824;">Valores</h2>
+          <p class="card-block">
+          - Creemos que la honestidad y la integridad son pilares fundamentales en las labores del día a día. <br>
+          - Trabajamos con profesionalismo y ética para la satisfacción de nuestros clientes.<br>
+          - Elaboramos cada reporte y trabajo con responsabilidad y transparencia de información para la tranquilidad y confianza de nuestros grupos de interés.<br>
+          - Promovemos internamente la perseverancia y el trabajo en equipo para lograr una dinámica de unidad y compañerismo.</p>
+          </div>
+          </div>
+          <div class="space"></div>
+        </div>
+      </div>
+</div>
+  
+</div>
+
+
+<div class="seccionn" style="padding: 5% 0%; overflow: hidden;">
+        <div class="">
+          <div class="col-md-6">
+            <img src="../img/lotan.png" alt="LOTAN" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <h1 class="titn" style="color: #F6A21A;">Quienes Somos</h1>
+            <p class="texto">Somos una empresa que cuenta con una vasta experiencia, dedicado a promover el aporte urbano a través del desarrollo, construcción y comercialización de proyectos arquitectónicos e inmobiliarios. <br><br>
+            Construimos responsablemente ayudando a nuestros clientes a convertir sus sueños en realidad. Nuestros proyectos se han caracterizado por ser innovadores, eficientes y de alta calidad constructiva, lo cual ha generado una gran aceptación en el mercado local y nacional. <br><br>
+          LOTAN, continúa su deber en levantar proyectos innovadores, junto a profesionales en la edificación de departamentos unifamiliares, basados en el diseño del futuro, generando comodidad al cliente y fortaleciendo cada obra.</p>
+          </div>
+        </div>
+
+    </div>
 
 
 

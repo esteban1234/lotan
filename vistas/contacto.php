@@ -2,90 +2,65 @@
 <?php include 'encabezado2.php' ?>
 <body>
 	
-  <div class="linea">
-  <p><i class="fa fa-phone" aria-hidden="true"></i> PENDIENTE | COTIZAMOS SIN COSTO &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i> info@construccionesduncor.com</p>
-</div>
-
-<header>
-  <figure class="logo pull-left">
-    <img src="../img/duncor.png" class="img-responsive" alt="DUNCOR">
-  </figure>
-  <nav class="pull-right">
+  <div class="menu">
+  <nav>
     <ul>
       <a class="selector" href="../index.php">INICIO</a>
       <a class="selector" href="nosotros.php">NOSOTROS</a>
       <a class="selector" href="servicios.php">SERVICIOS</a>
-      <a class="selector" id="select" href="contacto.php"><i class="fa fa-phone" aria-hidden="true"></i> CONTACTO</a>
+      <a class="selector" id="select" href="contacto.php">CONTACTO</a>
     </ul>
   </nav>
-</header>
-
-<div class="banners">
-  <p>CONTACTO</p>
 </div>
-
-<div class="cont seccion2">
-  <ul class="contact">
-    <li style="text-align: left;vertical-align: top;">
-      <p><i class="fa fa-map-marker fa-3x"></i></p>
-      <p><strong>Catcomp Kft.</strong><br>PRIV. AGUA #592-A <br>ENTRANDO POR CIRCUITO LAS FLORES SUR. <br>COL. LA GLORIA. TUXTLA GUTIERREZ. <br> CHIAPAS. C.P. 29038</p>
-    </li>
-    <li style="text-align: left;vertical-align: top;">
-      <p><i class="fa fa-phone fa-3x"></i></p>
-      <p><strong>Phone:</strong><br>PENDIENTE</p>
-    </li>
-    <li style="text-align: left;vertical-align: top;">
-      <p><i class="fa fa-envelope fa-3x"></i></p>
-      <p><strong>E-mail:</strong><br>construccionesduncor.com</p>
-    </li>
-    <li style="text-align: left;vertical-align: top;">
-      <p><i class="fa fa-clock-o fa-3x"></i></p>
-      <p><strong>Horario:</strong><br>Lunes a Viernes de 9 am a 6 pm</p>
-    </li>
-  </ul>
-</div>
-
-<div class="seccion3">
-  <p class="textof">Escribenos tus comentario, dudas o preguntas, estamos para servirte.</p> <br><br>
+<header>
   <div class="container">
-    <div class="row">
-      <form role="form" id="contact-form" class="contact-form">
-                      <div class="row">
-                      <div class="col-md-4">
-                        <div class="form-group">
-                              <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Escribe tu nombre completo">
-                        </div>
-                      </div>
-                        <div class="col-md-4">
-                        <div class="form-group">
-                              <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="Escribe tu correo electronico">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                              <input type="text" class="form-control" name="tel" autocomplete="off" id="email" placeholder="Escribe tu numero teléfonico">
-                        </div>
-                      </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                        <div class="form-group">
-                              <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Escribe tu comentario"></textarea>
-                        </div>
-                      </div>
-                      </div>
-                      <div class="row">
-                      <div class="col-md-12">
-                    <button type="submit" class="btn main-btn pull-right">ENVIAR</button>
-                    </div>
-                    </div>
-                  </form>
+    <figure class="logo pull-left">
+      <img src="../img/lotan.png" alt="LOTAN" class="img-responsive">
+    </figure>
+
+    <div class="text-h pull-right">
+      <p class="pull-left correo-h"><i style="color: #F6A41D;" class="fa fa-envelope-o" aria-hidden="true"></i> info@construccioneslotan.com</p>
+      <p class="pull-right horario-h"><i style="color: #F6A41D;" class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes de 9 am a 6 pm</p>
     </div>
   </div>
-</div>
-<div class="mapa">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1135.8248473947647!2d-93.17742496885256!3d16.754563136704775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd97d977e5d03%3A0xf949657d7faf26d0!2sAgua+592%2C+La+Gloria%2C+29054+La+Gloria%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1507843985988" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+</header>
+
+<section id="contact">
+      <div class="section-content">
+        <h1 class="section-header">Formulario de contacto</h1>
+        <h3>Escríbenos y resolveremos todas tus dudas. Apoyános proporcionando los siguientes datos.</h3>
+      </div>
+      <div class="contact-section">
+      <div class="container">
+        <form>
+          <div class="col-md-6 form-line">
+              <div class="form-group">
+                <label for="exampleInputUsername">Nombre</label>
+                <input type="text" class="form-control" id="" placeholder=" Escribe tu nombre completo">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Escribe tu correo electrónico">
+              </div>  
+              <div class="form-group">
+                <label for="telephone">Teléfono</label>
+                <input type="tel" class="form-control" id="telephone" placeholder=" Escribe tu número teléfonico">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for ="description">Comentario</label>
+                <textarea  class="form-control" id="description" placeholder="Escribe tu comentario"></textarea>
+              </div>
+              <div>
+
+                <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  ENVIAR</button>
+              </div>
+              
+          </div>
+        </form>
+      </div>
+    </section>
 
 <a class="go-top" href="#">Subir</a>
 <?php include 'pie.php' ?>
