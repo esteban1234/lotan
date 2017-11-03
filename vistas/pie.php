@@ -10,10 +10,10 @@
 
       
         
- <hr style="margin-bottom:0px; margin-top:30px; padding:0px;">
+ <hr class="hr-oculto" style="margin-bottom:0px; margin-top:30px; padding:0px;">
         <div class="row" id="sub-two">
 
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="vertical-line text-center">
                     <span class="glyphicon fa fa-street-view"></span>
                     <h4>Dirección</h4>
@@ -21,22 +21,22 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="vertical-line text-center">
                     <span class="glyphicon fa fa-phone"></span>
                     <h4>Teléfono</h4>
                     <p>PENDIENTE</p>
                 </div>
             </div>
-
-            <div class="col-md-3">
+            <div class="clearfix visible-sm"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
                 <div style="margin:8px;" class="text-center">
                     <span class="glyphicon fa fa-clock-o"></span>
                     <h4 style="color:#6d6c6c;">Horario</h4>
                     <p>Lunes a Viernes de 9 am a 6 pm</p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-3">
                 <div style="margin:8px;" class="text-center">
                     <span class="glyphicon fa fa-envelope-o"></span>
                     <h4 style="color:#6d6c6c;">Correo</h4>
@@ -46,7 +46,7 @@
             
 
         </div>
-        <hr style="margin-bottom:30px; margin-top:0px; padding:0px;">
+        <hr class="hr-oculto" style="margin-bottom:30px; margin-top:0px; padding:0px;">
 
        
 

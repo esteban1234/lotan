@@ -11,6 +11,9 @@
       <a class="selector" href="contacto.php">CONTACTO</a>
     </ul>
   </nav>
+   <div class="op-menu">
+    <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+  </div>
 </div>
 <header>
   <div class="container">

@@ -11,6 +11,9 @@
       <a class="selector" href="vistas/contacto.php">CONTACTO</a>
     </ul>
   </nav>
+  <div class="op-menu">
+    <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+  </div>
 </div>
 <header>
   <div class="container">
@@ -43,29 +46,29 @@
 <div class="section" style="padding: 0px 0px 5% 0px;">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen">
               
             </figure>
-            <h2 class="text-center">Viviendas</h2>
+            <h2 class="text-center txt-voi">Viviendas</h2>
             <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisici elit,
               <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
               <br>Ut enim ad minim veniam, quis nostrud</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen2">
               
             </figure>
-            <h2 class="text-center">Oficinas</h2>
+            <h2 class="text-center txt-voi">Oficinas</h2>
             <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisici elit,
               <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
               <br>Ut enim ad minim veniam, quis nostrud</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen3">
               
             </figure>
-            <h2 class="text-center">Infraestructura</h2>
+            <h2 class="text-center txt-voi">Infraestructura</h2>
             <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisici elit,
               <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
               <br>Ut enim ad minim veniam, quis nostrud</p> -->

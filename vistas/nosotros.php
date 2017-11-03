@@ -12,6 +12,9 @@
       <a class="selector" href="contacto.php">CONTACTO</a>
     </ul>
   </nav>
+   <div class="op-menu">
+    <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+  </div>
 </div>
 <header>
   <div class="container">
@@ -28,7 +31,7 @@
 
 <div class="container" style="padding: 5% 0%;">
 <div class = "row">
-    <div class = "col-md-4">
+    <div class = "col-sm-4 col-md-4">
         <div class="card-base">
           <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><i class="fa fa-hourglass-half" aria-hidden="true"></i></a>
           <div class="card-data widgetCardData">
@@ -40,7 +43,7 @@
         </div>
     </div>
 
-      <div class = "col-md-4">
+      <div class = "col-sm-4 col-md-4">
         <div class="card-base">
           <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><i class="fa fa-eye" aria-hidden="true"></i></a>
           <div class="card-data widgetCardData">
@@ -52,7 +55,7 @@
         </div>
     </div>
 
-      <div class = "col-md-4">
+      <div class = "col-sm-4 col-md-4">
         <div class="card-base">
           <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><i class="fa fa-handshake-o" aria-hidden="true"></i></a>
           <div class="card-data widgetCardData">
@@ -74,10 +77,10 @@
 
 <div class="seccionn" style="padding: 5% 0%; overflow: hidden;">
         <div class="">
-          <div class="col-md-6">
-            <img src="../img/lotan.png" alt="LOTAN" class="img-responsive">
+          <div class="col-sm-6 col-md-6">
+            <img src="../img/lotan.png" alt="LOTAN" class="img-responsive img-lotan">
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6">
             <h1 class="titn" style="color: #F6A21A;">Quienes Somos</h1>
             <p class="texto">Somos una empresa que cuenta con una vasta experiencia, dedicado a promover el aporte urbano a través del desarrollo, construcción y comercialización de proyectos arquitectónicos e inmobiliarios. <br><br>
             Construimos responsablemente ayudando a nuestros clientes a convertir sus sueños en realidad. Nuestros proyectos se han caracterizado por ser innovadores, eficientes y de alta calidad constructiva, lo cual ha generado una gran aceptación en el mercado local y nacional. <br><br>
