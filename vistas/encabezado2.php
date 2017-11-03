@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	
+	<meta name="google-site-verification" content="TfRJwHOZXYRu70tSzHGfkJobrnhbYf6R9KruQjWlH9I" />
 	<link rel="icon" type="image/png" href="../img/favicon.png" />
 	<title>LOTAN CONSTRUCCIONES INTEGRALES</title>
 	 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
