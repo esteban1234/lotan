@@ -95,7 +95,7 @@ header{
 .banner {
     position: relative;
     height: 410px;
-    background: url('../img/banner.jpg') no-repeat center;
+    background: url('../img/bannerIndex.jpg') no-repeat center;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
