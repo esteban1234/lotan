@@ -78,7 +78,7 @@
 <div class="seccionn" style="padding: 5% 0%; overflow: hidden;">
         <div class="">
           <div class="col-sm-6 col-md-6">
-            <img src="../img/lotan.png" alt="LOTAN" class="img-responsive img-lotan">
+            <img src="../img/logonosotros.png" alt="LOTAN" class="img-responsive img-lotan">
           </div>
           <div class="col-sm-6 col-md-6">
             <h1 class="titn" style="color: #F6A21A;">Quienes Somos</h1>
